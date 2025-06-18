@@ -1,179 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <!-- Google Tag Manager -->
- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
- new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
- j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
- 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
- })(window,document,'script','dataLayer','GTM-WGWSM27L');</script>
- <!-- End Google Tag Manager -->
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>KnightSight</title>
- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
- <style>
-   body {
-     margin: 0;
-     font-family: 'Inter', sans-serif;
-     background-color: #0d1117;
-     color: #c9d1d9;
-   }
-   header {
-     background-color: #0d1117;
-     padding: 3rem 1rem 1rem;
-     text-align: center;
-   }
-   header h1 {
-     font-size: 3.5rem;
-     color: #38bdf8;
-     margin-bottom: 0.5rem;
-   }
-   header p {
-     font-size: 1.1rem;
-     color: #94a3b8;
-     margin-bottom: 1rem;
-   }
-   .logo-img {
-     max-width: 200px;
-     margin-top: 1rem;
-   }
-   .hero {
-     text-align: center;
-     padding: 2rem 1rem 3rem;
-   }
-   .hero h2 {
-     font-size: 1.75rem;
-     margin-bottom: 1rem;
-   }
-   .hero p {
-     max-width: 700px;
-     margin: 0 auto;
-     font-size: 1rem;
-     color: #cbd5e1;
-   }
-   .cta {
-     margin-top: 2rem;
-   }
-   .cta a {
-     background-color: #38bdf8;
-     color: #0f172a;
-     padding: 0.75rem 1.5rem;
-     border-radius: 6px;
-     text-decoration: none;
-     font-weight: 600;
-   }
-   .features {
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-     gap: 1.5rem;
-     padding: 2rem 1rem;
-     max-width: 1200px;
-     margin: 0 auto;
-   }
-   .feature {
-     border-radius: 10px;
-     padding: 1.5rem;
-     color: #fff;
-     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-   }
-   .feature:nth-child(1) {
-     background-color: #059669;
-   }
-   .feature:nth-child(2) {
-     background-color: #9333ea;
-   }
-   .feature:nth-child(3) {
-     background-color: #dc2626;
-   }
-   .feature:nth-child(4) {
-     background-color: #0284c7;
-   }
-   .feature h3 {
-     margin-top: 0;
-     color: #f8fafc;
-   }
-   .screenshot {
-     text-align: center;
-     padding: 2rem 1rem;
-     background-color: #0f172a;
-   }
-   .screenshot img {
-     max-width: 90%;
-     border-radius: 10px;
-     box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
-     margin: 1rem;
-   }
-   footer {
-     background-color: #1e293b;
-     color: #94a3b8;
-     text-align: center;
-     padding: 1rem;
-   }
-   .donation-text {
-     margin-top: 1rem;
-     margin-bottom: 0.5rem;
-     font-size: 0.95rem;
-     color: #cbd5e1;
-   }
- </style>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WGWSM27L');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KnightSight</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
+    header {
+      background-color: #0d1117;
+      padding: 3rem 1rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      color: #38bdf8;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      margin-bottom: 1rem;
+    }
+    .logo-img {
+      max-width: 200px;
+      margin-top: 1rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem 3rem;
+    }
+    .hero h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1rem;
+      color: #cbd5e1;
+    }
+    .cta {
+      margin-top: 2rem;
+    }
+    .cta a {
+      background-color: #38bdf8;
+      color: #0f172a;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .feature {
+      border-radius: 10px;
+      padding: 1.5rem;
+      color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .feature:nth-child(1) {
+      background-color: #059669;
+    }
+    .feature:nth-child(2) {
+      background-color: #9333ea;
+    }
+    .feature:nth-child(3) {
+      background-color: #dc2626;
+    }
+    .feature:nth-child(4) {
+      background-color: #0284c7;
+    }
+    .feature:nth-child(5) {
+      background-color: #f59e0b;
+    }
+    .feature h3 {
+      margin-top: 0;
+      color: #f8fafc;
+    }
+    .screenshot {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #0f172a;
+    }
+    .screenshot img {
+      max-width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+      margin: 1rem;
+    }
+    footer {
+      background-color: #1e293b;
+      color: #94a3b8;
+      text-align: center;
+      padding: 1rem;
+    }
+    .donation-text {
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+      color: #cbd5e1;
+    }
+  </style>
 </head>
 <body>
- <!-- Google Tag Manager (noscript) -->
- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGWSM27L"
- height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
- <!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGWSM27L"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
- <header>
-   <h1>KnightSight</h1>
-   <p>Your journey to sharper, faster, and deeper chess thinking starts now.</p>
-   <img src="/images/logo.png" alt="KnightSight Logo" class="logo-img" />
- </header>
+  <header>
+    <h1>KnightSight</h1>
+    <p>Your journey to sharper, faster, and deeper chess thinking starts now.</p>
+    <img src="/images/logo.png" alt="KnightSight Logo" class="logo-img" />
+  </header>
 
- <section class="hero">
-   <h2>Why Chess Vision Matters</h2>
-   <p>
-     Chess isn’t just about choosing the right move — it’s about <strong>seeing the board</strong>. Great players recognize patterns, threats, and opportunities at a glance. This skill is called <strong>chess vision</strong>. Like any skill, it can be trained.
-   </p>
-   <div class="cta">
-     <a href="https://app--knight-sight-13b7a490.base44.app/">Launch the App (alpha version)</a>
-   </div>
- </section>
+  <section class="hero">
+    <h2>Why Chess Vision Matters</h2>
+    <p>
+      Chess isn’t just about choosing the right move — it’s about <strong>seeing the board</strong>. Great players recognize patterns, threats, and opportunities at a glance. This skill is called <strong>chess vision</strong>. Like any skill, it can be trained.
+    </p>
+    <div class="cta">
+      <a href="https://app--knight-sight-13b7a490.base44.app/">Launch the App (alpha version)</a>
+    </div>
+  </section>
 
- <section class="features">
-   <div class="feature">
-     <h3>Trace the Line</h3>
-     <p>Visualize and recall a sequence of moves, then reconstruct the resulting position.</p>
-   </div>
-   <div class="feature">
-     <h3>Flash & Recreate</h3>
-     <p>Memorize a board position briefly, then answer a question or reconstruct it. Great for training visual memory and board awareness.</p>
-   </div>
-   <div class="feature">
-     <h3>Blind Mate in X</h3>
-     <p>Visualize and execute a mating sequence from memory. No visual cues. Just your mind and the board inside it.</p>
-   </div>
-   <div class="feature">
-     <h3>Rapid Square ID</h3>
-     <p>Quickly identify algebraic notations on the board. Helps you read, think, and play faster.</p>
-   </div>
- </section>
+  <section class="features">
+    <div class="feature">
+      <h3>Trace the Line</h3>
+      <p>Visualize and recall a sequence of moves, then reconstruct the resulting position.</p>
+    </div>
+    <div class="feature">
+      <h3>Flash & Recreate</h3>
+      <p>Memorize a board position briefly, then answer a question or reconstruct it. Great for training visual memory and board awareness.</p>
+    </div>
+    <div class="feature">
+      <h3>Blind Mate in X</h3>
+      <p>Visualize and execute a mating sequence from memory. No visual cues. Just your mind and the board inside it.</p>
+    </div>
+    <div class="feature">
+      <h3>Rapid Square ID</h3>
+      <p>Quickly identify algebraic notations on the board. Helps you read, think, and play faster.</p>
+    </div>
+    <div class="feature">
+      <h3>Coach Dashboard</h3>
+      <p>Coaches can assign drills, monitor student progress, and manage their team — all in a beautifully simple interface. <a href="/coach.html" style="color:#fff; text-decoration:underline;">Learn more →</a></p>
+    </div>
+  </section>
 
- <section class="screenshot">
-   <h2>See the App in Action</h2>
-   <img src="/images/ks-collage.png" alt="KnightSight Screenshot Collage">
- </section>
+  <section class="screenshot">
+    <h2>See the App in Action</h2>
+    <img src="/images/ks-collage.png" alt="KnightSight Screenshot Collage">
+  </section>
 
- <footer>
-   <p>&copy; 2025 KnightSight. All rights reserved.</p>
-   <p class="donation-text">We'd be grateful for a very reasonable and optional $1.99/month subscription to cover our time and expenses in maintaining and improving our app.</p>
-   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-     <input type="hidden" name="cmd" value="_s-xclick" />
-     <input type="hidden" name="hosted_button_id" value="2BL5NXN6ELQW4" />
-     <input type="hidden" name="currency_code" value="USD" />
-     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Subscribe" />
-   </form>
-   <p style="margin-top: 1rem;"><a href="mailto:jeff.kern@knightsight.app" style="color:#38bdf8; text-decoration:none;">Contact us</a></p>
- </footer>
+  <footer>
+    <p>&copy; 2025 KnightSight. All rights reserved.</p>
+    <p class="donation-text">We'd be grateful for a very reasonable and optional $1.99/month subscription to cover our time and expenses in maintaining and improving our app.</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <input type="hidden" name="hosted_button_id" value="2BL5NXN6ELQW4" />
+      <input type="hidden" name="currency_code" value="USD" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Subscribe" />
+    </form>
+    <p style="margin-top: 1rem;"><a href="mailto:jeff.kern@knightsight.app" style="color:#38bdf8; text-decoration:none;">Contact us</a></p>
+  </footer>
 </body>
 </html>
